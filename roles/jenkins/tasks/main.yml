@@ -9,7 +9,7 @@
     - CIPipelines
 
 - name: create pipeline jobs
-  ansible.builtin.include.tasks: pipeline.yml
+  ansible.builtin.include_tasks: pipeline.yml
   loop:
     - { name: "frontend", dir: "CIPipelines" }
     - { name: "cart", dir: "CIPipelines" }
