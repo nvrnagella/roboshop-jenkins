@@ -27,7 +27,7 @@
         <data>
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git">
-                    <id>e373efde-d6aa-4824-898b-9d676a73f8f0</id>
+                    <id>{{unique_key}}</id>
                     <remote>https://github.com/nvrnagella/{{item.name}}</remote>
                     <credentialsId></credentialsId>
                     <traits>
